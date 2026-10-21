@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qial-awn"
+version = "0.1.0"
+description = "Auditable ANY-maze absolute-turning pipeline with explicit trial mapping"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "pandas>=2.0,<4", "matplotlib>=3.7,<4"]
+
+[project.optional-dependencies]
+stats = ["statsmodels>=0.14,<0.16", "scipy>=1.10,<2"]
+test = ["pytest>=7,<10"]
+
+[project.scripts]
+awn = "winding_pipeline.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["winding_pipeline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

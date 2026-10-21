@@ -1,0 +1,12 @@
+QIAL AWN working pipeline, version 0.1.0
+Created for Jacob Chen's research workflow, 2026-10-06.
+
+The geometric definition and legacy reference scripts originate from the
+user-supplied awn repository. AbsWinding.m credits Didong Li (August 2020);
+the original README credits Didong Li, Andrei Niculescu and Alex Badea (2022).
+Original scripts and license are retained under legacy_reference/.
+New implementation, tests and documentation are marked by their placement in
+winding_pipeline/, tests/, examples/ and docs/. Original sources were not edited.
+The accompanying Apache-2.0 license applies to this distribution.
+
+No validation on real experimental trajectories is claimed by this release.

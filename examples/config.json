@@ -1,0 +1,16 @@
+{
+  "x_column": "Centre position X",
+  "y_column": "Centre position Y",
+  "time_column": "Time",
+  "delimiter": ",",
+  "decimal": ".",
+  "encoding": "utf-8-sig",
+  "skiprows": 0,
+  "coordinate_unit": "unknown",
+  "coordinate_scale": 1.0,
+  "y_axis": "down",
+  "max_time_gap_s": null,
+  "max_speed": null,
+  "min_step": 0.0,
+  "resample_step": null
+}
